@@ -76,7 +76,7 @@ Notification de bienvenue lors du démarrage de l'application
 
 - Architecture par feature (data / domain / presentation) : chaque couche a un rôle (récupérer, décrire, afficher).
 
-- Repository (`BirthdayRepository` + `BirthdayRepositoryImpl`) : pour plus de maintenabilité sur le long terme.
+- Repository (`BirthdayRepository` + `BirthdayRepositoryImpl`) l'UI dépend d'une interface et pas de flutter_contacts directement. On peut changer la source de données (API, fausses données pour les tests) sans modifier l'interface.
 
 - flutter_contacts : accès aux contacts Android et iOS.
 
