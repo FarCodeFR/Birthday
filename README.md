@@ -40,7 +40,7 @@ Notification de bienvenue lors du démarrage de l'application
 - `fvm flutter pub get`
 - `fvm flutter run`
 
-## Installer la version APK
+## Android (APK)
 
 - Télécharger le fichier `app-release.apk` depuis la page [Releases](https://github.com/FarCodeFR/Birthday/releases) du dépôt.
 
@@ -51,6 +51,14 @@ Notification de bienvenue lors du démarrage de l'application
 - Pour générer l'APK soi-même :
   `fvm flutter build apk --release`
   (fichier dans `build/app/outputs/flutter-apk/`).
+
+## iOS
+
+- Pas de fichier installable : la distribution iOS (TestFlight / `.ipa`) nécessite un compte Apple Developer payant.
+
+- Lancer depuis un Mac avec Xcode : brancher l'iPhone (ou ouvrir le simulateur) puis `fvm flutter run`.
+
+- Au premier lancement, accepter l'accès aux contacts et aux notifications.
 
 <br>
 

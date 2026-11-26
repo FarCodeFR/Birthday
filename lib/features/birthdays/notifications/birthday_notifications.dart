@@ -2,6 +2,7 @@ import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 import 'package:flutter_timezone/flutter_timezone.dart';
 import 'package:timezone/data/latest_all.dart' as tz;
 import 'package:timezone/timezone.dart' as tz;
+import 'package:permission_handler/permission_handler.dart';
 
 final _plugin = FlutterLocalNotificationsPlugin();
 
@@ -18,6 +19,8 @@ Future<void> initNotifications() async {
   );
 
   await _plugin.initialize(settings: settings);
+  // Android 13+ : la permission doit être demandée à l'utilisateur
+  await Permission.notification.request();
 }
 
 // Test des notifications
