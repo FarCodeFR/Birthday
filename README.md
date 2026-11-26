@@ -1,4 +1,4 @@
-# birthday
+# Birthday
 
 C'est une application pour récupérer les contacts de votre téléphone qui ont une date d'anniversaire, ça permet également de savoir combien de jours il reste avant leur date d'anniversaire.
 
