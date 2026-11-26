@@ -5,6 +5,6 @@ import 'package:flutter/material.dart';
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await initNotifications();
-  await testNotification();
+  await welcomeNotification();
   runApp(const MyApp());
 }

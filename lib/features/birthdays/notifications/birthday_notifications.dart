@@ -21,7 +21,7 @@ Future<void> initNotifications() async {
 }
 
 // Test des notifications
-Future<void> testNotification() async {
+Future<void> welcomeNotification() async {
   await _plugin.cancelAll();
 
   final date = tz.TZDateTime.now(tz.local).add(const Duration(seconds: 10));
@@ -38,8 +38,8 @@ Future<void> testNotification() async {
 
   await _plugin.zonedSchedule(
     id: 1,
-    title: 'Bon anniversaire !',
-    body: 'Passe une bonne journée',
+    title: 'Bienvenu sur Birthday !',
+    body: 'Un anniversaire à fêter ? ',
     scheduledDate: date,
     notificationDetails: details,
     androidScheduleMode: AndroidScheduleMode.inexactAllowWhileIdle,
