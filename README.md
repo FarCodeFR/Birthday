@@ -115,7 +115,7 @@ Flux des données : data source → model → repository → entity → UI.
 
 # Difficultés et améliorations
 
-Difficulté avec le language Dart + et finir une fonctionnalité
+Difficulté avec le language Dart + finir la fonctionnalité sur les notifications
 
 - Ajouter une notification avec rappel 7j 3j 1j pour les anniversaires.
 
