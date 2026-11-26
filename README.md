@@ -2,10 +2,16 @@
 
 C'est une application pour récupérer les contacts de votre téléphone qui ont une date d'anniversaire, ça permet également de savoir combien de jours il reste avant leur date d'anniversaire.
 
-<img src="assets/images/app_birthday.png" width="200px"/>
-<img src="assets/images/app_birthday_v2.png" width="200px"/>
-<img src="assets/images/contact_null.png" width="200px"/>
-<img src="assets/images/notification.png" width="400px"/>
+<p>
+  <img src="assets/images/app_birthday.png" width="200px"/>
+  <img src="assets/images/app_birthday_v2.png" width="200px"/>
+</p>
+<p>
+  <img src="assets/images/contact_null.png" width="200px"/>
+</p>
+<p>
+  <img src="assets/images/notification.png" width="400px"/>
+</p>
 
 <br>
 
