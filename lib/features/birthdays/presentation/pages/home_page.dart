@@ -16,7 +16,7 @@ class _MyHomePageState extends State<MyHomePage> {
   final BirthdayRepository _repository = BirthdayRepositoryImpl();
   late final Future<List<Birthday>> _birthdaysFuture;
 
-  // Initialié une fois
+  // Initialisé une fois
   @override
   void initState() {
     super.initState();
