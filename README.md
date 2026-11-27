@@ -126,3 +126,5 @@ Difficulté avec le language Dart + finir la fonctionnalité sur les notificatio
 - Ajouter une notification avec rappel 7j 3j 1j pour les anniversaires.
 
 - L'ajout de tests
+
+- L'ajout de plusieurs choix de message lorsque l'on veut envoyer un SMS
